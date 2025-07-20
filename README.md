@@ -2,11 +2,13 @@
 
 ## 🚀 About Me
 - 🔭 I'm currently working on **Sitasi-ITK, StudyVerse, BrainVerse, and Layanan Fakultas**
+- 👨‍💼 **Full Stack Developer** at **Myst Tech** & **Information System Lecturer** at **ITK**
 - 🌱 I'm currently learning **Vue + Laravel + Inertia.js stack** (my favorite combo!)
-- 👯 I'm looking to collaborate on **Full-stack web applications and educational platforms**
-- 💬 Ask me about **Laravel, React, Vue.js, and modern web development**
-- 📫 How to reach me: **[Your Email]**
-- ⚡ Fun fact: **I love building educational platforms that make learning more engaging!**
+- 👯 I'm looking to collaborate on **Educational Technology and Full-stack web applications**
+- 💬 Ask me about **Laravel, React, Vue.js, Educational Technology, and IoT Development**
+- 📫 How to reach me: **aidil@lecturer.itk.ac.id**
+- 📍 Based in **Balikpapan, Indonesia**
+- ⚡ Fun fact: **I combine teaching and development - 5+ years building software while inspiring the next generation of IT professionals!**
 
 ## 🛠️ Technologies & Tools
 
@@ -25,15 +27,40 @@
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![Inertia.js](https://img.shields.io/badge/-Inertia.js-9553E9?style=flat-square&logo=inertia&logoColor=white)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+
+### IoT & Hardware
+![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
+![ESP32](https://img.shields.io/badge/-ESP32-000000?style=flat-square&logo=espressif&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-A22846?style=flat-square&logo=raspberry-pi&logoColor=white)
 
 ### Databases
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
 ### Tools & Platforms
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+## 🎓 Professional Background
+
+### 💼 Experience
+- **Full Stack Developer** | Myst Tech (2021 - Present)
+- **Information System Lecturer** | Institut Teknologi Kalimantan (2020 - Present)  
+- **IT Consultant** | IT Center PNUP (2017 - 2018)
+
+### 🎯 Education
+- **Master's Degree** | Politeknik Elektronika Negeri Surabaya (PENS) (2018 - 2020)
+- **Bachelor's Degree** | Politeknik Negeri Ujung Pandang (PNUP) (2012 - 2016)
+
+### 🏆 Expertise Areas
+- **Web Development** (Frontend: 95% | Backend: 85%)
+- **Educational Technology** & Learning Management Systems
+- **IoT Development** (80%) - Arduino, ESP32, Sensors Integration
+- **Full Stack Solutions** & System Architecture
 
 ## 📊 GitHub Stats
 
@@ -74,14 +101,15 @@ Faculty administrative service and document tracking system for streamlined acad
 ## 📫 Connect with Me
 
 [![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat-square&logo=github&logoColor=white)](https://aidilsaputrakirsan.github.io/)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](your-linkedin-url)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aidil-saputra-kirsan-0808911bb/)
+[![Website](https://img.shields.io/badge/-Personal%20Website-4285F4?style=flat-square&logo=google-chrome&logoColor=white)](https://aidilsaputrakirsan.github.io)
 [![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:aidil@lecturer.itk.ac.id)
 
 ## 💝 Support Me
 
 If you like my work and want to support me:
 
-[![Buy Me A Coffee](https://img.shields.io/badge/-Buy%20Me%20A%20Coffee-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](your-buymeacoffee-link)
+[![Buy Me A Coffee](https://img.shields.io/badge/-Buy%20Me%20A%20Coffee-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](#)
 
 ---
 
