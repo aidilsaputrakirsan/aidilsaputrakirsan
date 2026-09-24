@@ -1,0 +1,11 @@
+{
+  "type": "normal",
+  "fileName": "profile-sumi-dark.svg",
+  "backgroundColor": "#14120F",
+  "foregroundColor": "#ECE4D6",
+  "strongColor": "#E2583F",
+  "weakColor": "#9C9284",
+  "radarColor": "#E2583F",
+  "growingAnimation": true,
+  "contribColors": ["#2A2620", "#5A2A20", "#8F3526", "#C43D2B", "#F08A6E"]
+}

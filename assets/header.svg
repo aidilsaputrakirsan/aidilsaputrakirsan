@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Aidil Saputra Kirsan — Founder of Myst Tech">
+  <!-- Animated profile banner (SMIL only, no scripts, so GitHub renders it inside <img>).
+       Planets travel the tilted rings; each has a "back" copy drawn behind the core and a
+       "front" copy drawn over it, swapped halfway through the orbit, and grows as it comes
+       closer. Palette: Sumi & Vermilion (same as myst-tech.com). -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1F1B16"/>
+      <stop offset="1" stop-color="#12100D"/>
+    </linearGradient>
+    <radialGradient id="core" cx=".36" cy=".3" r=".78">
+      <stop offset="0" stop-color="#F6A690"/>
+      <stop offset=".42" stop-color="#D8503A"/>
+      <stop offset="1" stop-color="#6E1C12"/>
+    </radialGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#E2583F" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#E2583F" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="shine" cx=".32" cy=".26" r=".5">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pShade" cx=".35" cy=".3" r=".75">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".45"/>
+      <stop offset=".6" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity=".35"/>
+    </radialGradient>
+    <!-- orbit paths: start at the left end, go over the top (far side) first, then back along the bottom (near side) -->
+    <path id="outer" d="M -200 0 A 200 64 0 1 1 200 0 A 200 64 0 1 1 -200 0"/>
+    <path id="inner" d="M -128 0 A 128 40 0 1 1 128 0 A 128 40 0 1 1 -128 0"/>
+    <clipPath id="card"><rect width="1200" height="320" rx="28"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+
+    <!-- faint stars -->
+    <g fill="#ECE4D6">
+      <circle cx="640" cy="48" r="1.4"><animate attributeName="opacity" values=".15;.8;.15" dur="4s" repeatCount="indefinite"/></circle>
+      <circle cx="1130" cy="70" r="1.2"><animate attributeName="opacity" values=".7;.1;.7" dur="5s" repeatCount="indefinite"/></circle>
+      <circle cx="1080" cy="270" r="1.6"><animate attributeName="opacity" values=".2;.9;.2" dur="6s" repeatCount="indefinite"/></circle>
+      <circle cx="700" cy="262" r="1.1"><animate attributeName="opacity" values=".6;.1;.6" dur="3.5s" repeatCount="indefinite"/></circle>
+      <circle cx="780" cy="30" r="1"><animate attributeName="opacity" values=".1;.7;.1" dur="4.5s" repeatCount="indefinite"/></circle>
+      <circle cx="1160" cy="180" r="1.3"><animate attributeName="opacity" values=".5;.1;.5" dur="5.5s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- ===== text ===== -->
+    <g font-family="Sora, 'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif">
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.1s" fill="freeze"/>
+        <rect x="64" y="70" width="252" height="30" rx="15" fill="#3D1F19"/>
+        <circle cx="84" cy="85" r="4" fill="#E2583F">
+          <animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <text x="98" y="90" fill="#E2583F" font-size="13" font-weight="700" letter-spacing="2">MYST TECH · BALIKPAPAN</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="0.35s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" from="0 14" to="0 0" dur="0.9s" begin="0.35s" fill="freeze"/>
+        <text x="62" y="160" fill="#ECE4D6" font-size="50" font-weight="800" letter-spacing="-1.5">Aidil Saputra Kirsan</text>
+      </g>
+      <g opacity="0" font-family="'Plus Jakarta Sans', 'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif">
+        <animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="0.6s" fill="freeze"/>
+        <text x="64" y="202" fill="#B9AE9E" font-size="20">Founder of <tspan fill="#E2583F" font-weight="700">Myst Tech</tspan> · AI product engineer</text>
+        <text x="64" y="232" fill="#B9AE9E" font-size="20">Information Systems lecturer at ITK</text>
+        <text x="64" y="274" fill="#6F665A" font-size="15" letter-spacing="1">myst-tech.com</text>
+      </g>
+    </g>
+
+    <!-- ===== orbit ===== -->
+    <g transform="translate(930 160)">
+      <circle r="120" fill="url(#glow)">
+        <animate attributeName="r" values="112;128;112" dur="5s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- far halves of the rings + planets while behind the core -->
+      <g transform="rotate(-16)">
+        <path d="M -200 0 A 200 64 0 0 1 200 0" fill="none" stroke="#ECE4D6" stroke-opacity=".16" stroke-width="2"/>
+        <circle r="11" fill="#8FAE6E">
+          <animateMotion dur="14s" repeatCount="indefinite"><mpath href="#outer"/></animateMotion>
+          <animate attributeName="r" values="11;8;11;14;11" keyTimes="0;.25;.5;.75;1" dur="14s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;0" keyTimes="0;.5" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+        </circle>
+        <circle r="9" fill="#D9A45B">
+          <animateMotion dur="14s" begin="-7s" repeatCount="indefinite"><mpath href="#outer"/></animateMotion>
+          <animate attributeName="r" values="9;6.5;9;11.5;9" keyTimes="0;.25;.5;.75;1" dur="14s" begin="-7s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;0" keyTimes="0;.5" calcMode="discrete" dur="14s" begin="-7s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+      <g transform="rotate(14)">
+        <path d="M -128 0 A 128 40 0 0 1 128 0" fill="none" stroke="#ECE4D6" stroke-opacity=".14" stroke-width="1.6"/>
+        <circle r="8" fill="#7E9CC4">
+          <animateMotion dur="9s" begin="-2s" repeatCount="indefinite"><mpath href="#inner"/></animateMotion>
+          <animate attributeName="r" values="8;6;8;10;8" keyTimes="0;.25;.5;.75;1" dur="9s" begin="-2s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;0" keyTimes="0;.5" calcMode="discrete" dur="9s" begin="-2s" repeatCount="indefinite"/>
+        </circle>
+        <circle r="6" fill="#ECE4D6">
+          <animateMotion dur="9s" begin="-6.5s" repeatCount="indefinite"><mpath href="#inner"/></animateMotion>
+          <animate attributeName="r" values="6;4.5;6;7.5;6" keyTimes="0;.25;.5;.75;1" dur="9s" begin="-6.5s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;0" keyTimes="0;.5" calcMode="discrete" dur="9s" begin="-6.5s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+
+      <!-- Myst-Core -->
+      <circle r="48" fill="url(#core)">
+        <animate attributeName="r" values="47;50;47" dur="5s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="48" fill="url(#shine)"/>
+
+      <!-- near halves of the rings + planets while in front of the core -->
+      <g transform="rotate(-16)">
+        <path d="M 200 0 A 200 64 0 0 1 -200 0" fill="none" stroke="#ECE4D6" stroke-opacity=".5" stroke-width="2.4"/>
+        <g opacity="0">
+          <animateMotion dur="14s" repeatCount="indefinite"><mpath href="#outer"/></animateMotion>
+          <animate attributeName="opacity" values="0;1" keyTimes="0;.5" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+          <circle r="11" fill="#8FAE6E"><animate attributeName="r" values="11;8;11;14;11" keyTimes="0;.25;.5;.75;1" dur="14s" repeatCount="indefinite"/></circle>
+          <circle r="11" fill="url(#pShade)"><animate attributeName="r" values="11;8;11;14;11" keyTimes="0;.25;.5;.75;1" dur="14s" repeatCount="indefinite"/></circle>
+        </g>
+        <g opacity="0">
+          <animateMotion dur="14s" begin="-7s" repeatCount="indefinite"><mpath href="#outer"/></animateMotion>
+          <animate attributeName="opacity" values="0;1" keyTimes="0;.5" calcMode="discrete" dur="14s" begin="-7s" repeatCount="indefinite"/>
+          <circle r="9" fill="#D9A45B"><animate attributeName="r" values="9;6.5;9;11.5;9" keyTimes="0;.25;.5;.75;1" dur="14s" begin="-7s" repeatCount="indefinite"/></circle>
+          <circle r="9" fill="url(#pShade)"><animate attributeName="r" values="9;6.5;9;11.5;9" keyTimes="0;.25;.5;.75;1" dur="14s" begin="-7s" repeatCount="indefinite"/></circle>
+        </g>
+      </g>
+      <g transform="rotate(14)">
+        <path d="M 128 0 A 128 40 0 0 1 -128 0" fill="none" stroke="#ECE4D6" stroke-opacity=".42" stroke-width="2"/>
+        <g opacity="0">
+          <animateMotion dur="9s" begin="-2s" repeatCount="indefinite"><mpath href="#inner"/></animateMotion>
+          <animate attributeName="opacity" values="0;1" keyTimes="0;.5" calcMode="discrete" dur="9s" begin="-2s" repeatCount="indefinite"/>
+          <circle r="8" fill="#7E9CC4"><animate attributeName="r" values="8;6;8;10;8" keyTimes="0;.25;.5;.75;1" dur="9s" begin="-2s" repeatCount="indefinite"/></circle>
+          <circle r="8" fill="url(#pShade)"><animate attributeName="r" values="8;6;8;10;8" keyTimes="0;.25;.5;.75;1" dur="9s" begin="-2s" repeatCount="indefinite"/></circle>
+        </g>
+        <g opacity="0">
+          <animateMotion dur="9s" begin="-6.5s" repeatCount="indefinite"><mpath href="#inner"/></animateMotion>
+          <animate attributeName="opacity" values="0;1" keyTimes="0;.5" calcMode="discrete" dur="9s" begin="-6.5s" repeatCount="indefinite"/>
+          <circle r="6" fill="#ECE4D6"><animate attributeName="r" values="6;4.5;6;7.5;6" keyTimes="0;.25;.5;.75;1" dur="9s" begin="-6.5s" repeatCount="indefinite"/></circle>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
